@@ -5,6 +5,7 @@ from django.contrib.auth.backends import ModelBackend
 from django.shortcuts import render, redirect
 from allauth.account.views import LoginView
 
+
 class CustomLoginView(LoginView):
     template_name = 'accounts/login.html'
 
